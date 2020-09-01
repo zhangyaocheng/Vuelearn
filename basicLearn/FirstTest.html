@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Vue</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
+</head>
+<body>
+
+    <div id="div1">
+        {{gareen.age}}
+    </div>
+    <script>
+        var gareen = {"name":"gareen","age":18}
+        new Vue({
+            el: '#div1',
+            data: {
+                message: gareen
+            }
+
+        })
+
+    </script>
+    
+</body>
+</html>
